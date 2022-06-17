@@ -1,0 +1,86 @@
+body {
+  background-color: #1a1a1e;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+}
+
+.mainWrapper {
+  width: 500px;
+}
+
+.input {
+  width: 400px;
+  background-color: #202124;
+  color: rgb(186, 177, 177);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+  margin-right: 10px;
+}
+.input:focus {
+  outline: none;
+  border: 1px dotted;
+}
+.btn {
+  padding: 8px;
+  background-color: #194a51;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+.mainParagraph {
+  color: rgb(186, 177, 177);
+  font-size: 13px;
+  font-weight: bold;
+  display: flex;
+  margin: 5px 0 30px 5px;
+}
+
+.fetchData {
+  display: flex;
+  color: rgb(186, 177, 177);
+}
+
+.imgContainer {
+  width: 160px;
+  height: 160px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgCharacter {
+  width: 150px;
+  height: 150px;
+  border-radius: 25px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.textContainer {
+  display: block;
+  margin: auto 0, 0;
+}
+
+.characterName {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 0 10px 10px;
+}
+
+.characterText {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 0 10px 10px;
+}
