@@ -11,7 +11,7 @@ const RicknMorty = () => {
   const image: string = "";
   const [character, setCharacter] = useState({
     id,
-    status,
+    status
     species,
     gender,
     name,
