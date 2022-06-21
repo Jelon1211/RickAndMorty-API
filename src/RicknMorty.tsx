@@ -13,7 +13,7 @@ const RicknMorty = () => {
     id,
     status,
     species,
-    genderWW
+    gender,
     name,
     image,
   });
