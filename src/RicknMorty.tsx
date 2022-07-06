@@ -21,7 +21,7 @@ const RicknMorty = () => {
   const [location, setLocation] = useState<string>("");
   const [idChar, setIdChar] = useState<string>("0");
   const [isActive, setIsActive] = useState<boolean>(false);
-  // dddddadddvvvbbc555vv
+  // dddddadddvvvbbc555vgsrd
   const fetchBtn = () => {
     axios
       .get(`https://rickandmortyapi.com/api/character/${idChar}`)
